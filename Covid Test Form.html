@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<h1>Covid Test Eligibility</h1>
+
+<form name="Covid test eligibility">
+
+<fieldset style="background-color:pink;">
+<legend>Personal Details</legend>
+ <lable for="Firstname">First name:</lable><br>
+ <input type="text" name="Firstname" value=""><br>
+
+<lable for="lastname">last name:</lable><br>
+<input type="text" name="last name" value=""><br>
+
+<lable for="Age">age:</lable><br>
+<input type="text" name="age" value=""><br>
+
+<lable>Gender</lable><br>
+<input type="radio" name="gender" value="Male">
+<label for="Male">Male</lable><br>
+
+<input type="radio" name="gender" value="Female">
+<label for="Female">Female</lable><br>
+
+<input type="radio" name="gender" value="Other">
+<label for="Other">Other</lable><br>
+</fieldset>
+
+<fieldset style="background-color:lightblue;">
+<legend>Symptoms:</legend>
+<label>Check your symptoms</label><br>
+<input type="checkbox" name="symptoms" value="fever">
+<label for="fever">Fever</label>
+<br>
+<input type="checkbox" name="symptoms" value="difficulty breathing">
+<label for="difficulty breathing">Difficulty Breathing</label><br>
+
+<input type="checkbox" name="symptoms" value="low oxygen level">
+<label for="low oxygen level">Low Oxygen Level</label><br>
+<input type="checkbox" name="symptoms" value"coughing">
+<label for="coughing">Coughing</label><br>
+</fieldset>
+
+<fieldset style="background-color:lightgreen;">
+<legend>Address Details</legend>
+<label>Choose your state</label><br>
+
+<select id="state" name="state">
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Uttarakhand">Uttarakhand</option>
+</select><br>
+<textarea name="address detail" rows="10 cols="30">
+Address:
+</textarea>
+</fieldset>
+
+<fieldset style="background-color:lightyellow">
+<legend>Preconditions</legend>
+
+
+<textarea name="preconditions" rows="10" cols="30">
+Preconditions:
+</textarea>
+<input type="submit" name="Submit">
+</fieldset>
+</form>
+</form>
+</body>
+</html>
